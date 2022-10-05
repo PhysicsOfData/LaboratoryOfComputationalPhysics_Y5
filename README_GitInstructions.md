@@ -60,7 +60,7 @@ The following instructions need to be followed any time a new local repository i
 
    `git merge main`
 
-	* If you create a new file <NewFile> you need to tell git to track
+   * If you create a new file <NewFile> you need to tell git to track
       it
 	  
    `git add <NewFile`
