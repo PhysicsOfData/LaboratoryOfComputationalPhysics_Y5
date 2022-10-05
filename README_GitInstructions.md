@@ -68,13 +68,13 @@ The following instructions need to be followed any time a new local repository i
    * Commits the (tracked) changes you made to the file(s) and commit
      them local repository on github
 	 
-	 `git commit -m "some comment"`
+   `git commit -m "some comment"`
 	 
 	 (what follows after -m is a comment to keep track of the reason of the commit)
 
    * Now propagate (push) your local changes to your remote repository
      on github (`origin`)
 	 
-	 `git push origin <BranchName>`
+   `git push origin <BranchName>`
 	 
-	 * When appropriate (never for this course), propagate your development also to the repo you originally forked (upstream). For that you need to go for a pull request, which is done from GitHub. 
+   * When appropriate (never for this course), propagate your development also to the repo you originally forked (upstream). For that you need to go for a pull request, which is done from GitHub. 
