@@ -62,3 +62,5 @@ The following instructions need to be followed any time a new local repository i
    `git merge main`
 
 
+	* pippo
+
