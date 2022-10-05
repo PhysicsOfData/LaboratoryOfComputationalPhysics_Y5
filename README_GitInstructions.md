@@ -70,7 +70,7 @@ The following instructions need to be followed any time a new local repository i
 	 
    `git commit -m "some comment"`
 	 
-    (what follows after -m is a comment to keep track of the reason of the commit)
+   (what follows after -m is a comment to keep track of the reason of the commit)
 
    * Now propagate (push) your local changes to your remote repository
      on github (`origin`)
