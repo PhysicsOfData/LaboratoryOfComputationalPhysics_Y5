@@ -50,7 +50,6 @@ The following instructions need to be followed any time a new local repository i
    
    `git checkout <BranchName>`
 
-
    * The idea is that your main always reflects `upstream/main`, i.e. it keeps a local copy of the reference code as a starting point for your developments (i.e. solving the assigned problems). Note that in order to update your repository on GitHub, you need to push the local version to your remote repository.
 
    * Before starting to edit on the machine that you are using, type the follow command in order to update the directory with the last changes:
@@ -61,6 +60,21 @@ The following instructions need to be followed any time a new local repository i
 
    `git merge main`
 
+	* If you create a new file <NewFile> you need to tell git to track
+      it
+	  
+   `git add <NewFile`
+   
+   * Commits the (tracked) changes you made to the file(s) and commit
+     them local repository on github
+	 
+	 `git commit -m "some comment"`
+	 
+	 (what follows after -m is a comment to keep track of the reason of the commit)
 
-	* pippo paperino
-
+   * Now propagate (push) your local changes to your remote repository
+     on github (`origin`)
+	 
+	 `git push origin <BranchName>`
+	 
+	 * When appropriate (never for this course), propagate your development also to the repo you originally forked (upstream). For that you need to go for a pull request, which is done from GitHub. 
